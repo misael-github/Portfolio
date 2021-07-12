@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&family=Source+Sans+Pro:wght@600&display=swap');
+
+html {
+  scroll-behavior:smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header,
+.section-1 {
+  background-image: url("./img/fondo-punteado.png");
+}
+.logo {
+  width: 54px;
+  height: 50px;
+  margin: 30px 0 0 20px;
+}
+.img-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+.menu {
+  margin: 30px 20px 0 0;
+  font-size: 40px;
+}
+.links-menu {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .header {
+    margin-top: 100px;
+    width: 85%;
+    margin: auto;
+    height: 100px;
+    font-family: "Raleway", "sans-serif";
+  }
+  .menu {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-menu {
+    display: none;
+  }
+  .menu a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  .logo {
+    margin-top: 50px;
+    width: 70px;
+    height: auto;
+  }
+}
+
+
+.section-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.div-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  align-self: flex-start;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Raleway", "sans-serif";
+}
+.container-foto {
+  margin-top: 80px;
+}
+.foto-misael {
+  height: 380px;
+  width: 318px;
+}
+
+@media (min-width: 769px) {
+  .section-1 {
+    height:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .links-menu {
+    display: block;
+  }
+  .div-title {
+    width: 300px;
+    margin-left: 110px;
+    margin-top: 150px;
+  }
+  .container-foto {
+    align-self: flex-end;
+    width: 400px;
+  }
+  .foto-misael {
+    height: 400px;
+    
+  }
+}
+.section-2 {
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nombre {
+  text-align: center;
+  width: 100%;
+  height: 44px;
+  font-family: "Raleway", "sans-serif";
+  font-size: 32px;
+}
+.description {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  font-size: 16px;
+}
+.logo-section-2 {
+  font-size: 80px;
+  color: #ffd953;
+}
+
+@media (min-width: 769px) {
+  .section-2 {
+    padding: 70px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .nombre {
+    text-align: start;
+  }
+  .description {
+    padding: 0;
+  }
+  .textos {
+    width: 40%;
+    margin-left: 60px;
+  }
+  .logo-section-2 {
+    font-size: 200px;
+  }
+}
+  .section-3 {
+    box-sizing: border-box;
+    /* height: 1375px; */
+    width: 100%;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+  }
+  .title-section-3 {
+    font-size: 32px;
+    
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", "sans-serif";
+  }
+
+  .h3-info {
+    font-size: 24px;
+  }
+  .fa-laptop {
+    font-size: 100px;
+    color: #dbdbdb;
+  }
+
+  @media (min-width: 769px) {
+    .section-3 {
+      height: 650px;
+      padding: 70px 52px;
+      /* height: 604px; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container-info {
+      display: flex;
+      justify-content: space-between;
+      /* margin-bottom: 100px; */
+      width: 100%;
+    }
+    .info {
+      box-sizing: border-box;
+      text-align: center;
+      width: 262px;
+    }
+
+    .title-section3 {
+      font-size: 48px;
+      margin-bottom: 50px;
+      
+    }
+  }
+
+  .section-4 {
+    background-color: black;
+    height: 660px;
+    /* width: 100%; */
+    padding: 0 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .title-form {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Raleway", "sans-serif";
+  }
+  .label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* agarro las clases */
+  .input-email,
+  .textarea,
+  .input-name {
+    background-color: #c4c4c4;
+    border: none;
+    display: block;
+    padding: 10px;
+    /* font-family: "Roboto", sans-serif; */
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1px;
+  }
+  .textarea {
+    min-height: 150px;
+  }
+  .button {
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #ffd953;
+    border-radius: 5px;
+    border: none;
+  }
+
+  @media (min-width: 769px) {
+    .section-4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title-form {
+      width: 30%;
+      font-size: 42px;
+      align-self: flex-start;
+      margin-top: 60px;
+    }
+    .form {
+      width: 376px;
+      margin-right: 150px;
+      margin-left: 50px;
+    }
+  }
+
+  .footer {
+    background-image: url("./img/fondo-punteado.png");
+    background-color: #dbdbdb;
+    height: 493px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .links {
+    display: grid;
+    gap: 37px;
+    padding: 0;
+    margin-top: 80px;
+  }
+
+  .logo-footer {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+
+  .img-logo {
+    margin-bottom: 15px;
+  }
+  .links > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .icons-redes {
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+  }
+  @media (min-width: 769px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .logo-footer {
+    margin-left: 140px;
+    }
+    .links {
+      margin-top: 0;
+      margin-right: 140px;
+    }
+  
+}
